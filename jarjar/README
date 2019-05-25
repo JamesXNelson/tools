@@ -1,0 +1,10 @@
+This is a compiled version of the newest available jarjar fork online:
+https://github.com/Dica-Developer/jarjar
+
+The ancient 1.4 version distributed online can no longer process java 8+ classes,
+so updating to libraries like guava that now use modern java, we must also use
+a modern version of jarjar.
+
+You may add the bin directory to your path,
+or, ideally, leave scripts in directories that need to run jarjar,
+so the next developer can update jars with a (simple) one-liner.
